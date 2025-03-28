@@ -1,0 +1,1 @@
+ps aux | awk '($9 == "Mar13" || $9 ~ /:/) && $1 == "root" {split($10, t, ":"); if(t[1]== "0" && t[2]>"00") {total += t[2]; print;} } END { print "Total runtime:", total, "seconds" }' | sort -n --key=2 -r
