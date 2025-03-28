@@ -1,1 +1,1 @@
-Operating Systems 2025 Solutions and labs
+Operating Systems Solutions and labs
