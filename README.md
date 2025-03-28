@@ -1,1 +1,1 @@
-Operating Systems Solutions and labs
+Лаборатирски и Вежби по предметот Оперативни системи
